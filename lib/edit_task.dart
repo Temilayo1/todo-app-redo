@@ -67,8 +67,8 @@ class _EditTaskState extends State<EditTask> {
       padding: EdgeInsets.symmetric(vertical: 8, horizontal: 12),
       child: ElevatedButton(
         style: ElevatedButton.styleFrom(
-          onPrimary: Colors.red,
-          primary: isFormValid ? null : Colors.grey.shade700,
+          onPrimary: Colors.white,
+          primary: isFormValid ? null : Colors.yellow.shade700,
         ),
         onPressed: addOrUpdateNote,
         child: Text('Save'),

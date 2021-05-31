@@ -58,19 +58,19 @@ class _TaskDetailsPageState extends State<TaskDetailsPage> {
                   ),
                   SizedBox(height: 15),
                   Text(
+                    task.description,
+                    style: TextStyle(
+                        color: Colors.white,
+                        //fontWeight: FontWeight.bold,
+                        fontSize: 20),
+                  ),
+                  SizedBox(height: 15),
+                  Text(
                     DateFormat.yMMMd().format(task.createdTime),
                     style: TextStyle(
                         color: Colors.red,
                         fontWeight: FontWeight.bold,
-                        fontSize: 18),
-                  ),
-                  SizedBox(height: 15),
-                  Text(
-                    task.description,
-                    style: TextStyle(
-                        color: Colors.white,
-                        fontWeight: FontWeight.bold,
-                        fontSize: 20),
+                        fontSize: 13),
                   ),
                 ],
               ),

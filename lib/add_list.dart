@@ -67,7 +67,7 @@ class AddFormWidget extends StatelessWidget {
         decoration: InputDecoration(
           border: InputBorder.none,
           hintText: 'Title',
-          hintStyle: TextStyle(color: Colors.white),
+          hintStyle: TextStyle(color: Colors.yellow),
         ),
         validator: (title) =>
             title != null && title.isEmpty ? 'The title cannot be empty' : null,
@@ -81,7 +81,7 @@ class AddFormWidget extends StatelessWidget {
         decoration: InputDecoration(
           border: InputBorder.none,
           hintText: 'Type something...',
-          hintStyle: TextStyle(color: Colors.white),
+          hintStyle: TextStyle(color: Colors.yellow),
         ),
         validator: (title) => title != null && title.isEmpty
             ? 'The description cannot be empty'

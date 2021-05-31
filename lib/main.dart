@@ -1,5 +1,6 @@
-import 'package:fam_church/notes.dart';
 import 'package:flutter/material.dart';
+
+import 'tasks.dart';
 
 void main() {
   runApp(MyApp());
@@ -22,7 +23,7 @@ class MyApp extends StatelessWidget {
       // theme: ThemeData(
       //   primarySwatch: Colors.blue,
       // ),
-      home: Notes(),
+      home: Tasks(),
     );
   }
 }
